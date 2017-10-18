@@ -16,7 +16,7 @@ public class CoMinute{
                 Calendar calendar = Calendar.getInstance();
                 SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");
                 System.out.println(sdf.format(calendar.getTime()));
-                System.out.println()
+
             }
         };
         timer.schedule(timer_task,0,60000);
