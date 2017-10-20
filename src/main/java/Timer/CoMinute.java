@@ -1,25 +1,28 @@
 package Timer;
 
-import java.util.Timer;
-import java.util.TimerTask;
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
+import org.quartz.JobDetail;
+import org.quartz.Scheduler;
+import org.quartz.SchedulerException;
+import org.quartz.Trigger;
+import org.quartz.impl.StdSchedulerFactory;
+import static org.quartz.JobBuilder.*;
+import static org.quartz.TriggerBuilder.*;
+import static org.quartz.SimpleScheduleBuilder.*;
 
-public class CoMinute{
+public class CoMinute {
 
-    public static void main(String [] arg){
-        Timer timer = new Timer();
+    public static void main(String[] arg) throws SchedulerException {
 
-        TimerTask timer_task = new TimerTask() {
-            @Override
-            public void run() {
-                Calendar calendar = Calendar.getInstance();
-                SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");
-                System.out.println(sdf.format(calendar.getTime()));
+        try {
 
-            }
-        };
-        timer.schedule(timer_task,0,60000);
+            Scheduler mySchedule = StdSchedulerFactory.getDefaultScheduler();
+
+            mySchedule.start();
+
+            JobDetail MyJob
+
+        } catch (SchedulerException se) {
+            se.printStackTrace();
+        }
     }
-
 }

@@ -1,0 +1,266 @@
+2017-10-20 22:19:16 INFO  StdSchedulerFactory:1184 - Using default implementation for ThreadExecutor
+2017-10-20 22:19:16 INFO  SimpleThreadPool:268 - Job execution threads will use class loader of thread: main
+2017-10-20 22:19:16 INFO  SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2017-10-20 22:19:16 INFO  QuartzScheduler:240 - Quartz Scheduler v.2.2.1 created.
+2017-10-20 22:19:16 INFO  RAMJobStore:155 - RAMJobStore initialized.
+2017-10-20 22:19:16 INFO  QuartzScheduler:305 - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2017-10-20 22:19:16 INFO  StdSchedulerFactory:1339 - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2017-10-20 22:19:16 INFO  StdSchedulerFactory:1343 - Quartz scheduler version: 2.2.1
+2017-10-20 22:19:16 INFO  QuartzScheduler:575 - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2017-10-20 22:19:16 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-20 22:19:16 INFO  QuartzScheduler:694 - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2017-10-20 22:19:16 INFO  QuartzScheduler:613 - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2017-10-20 22:19:16 DEBUG SimpleThreadPool:328 - Shutting down threadpool...
+2017-10-20 22:19:16 DEBUG SimpleThreadPool:395 - Shutdown of threadpool complete.
+2017-10-20 22:19:16 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-20 22:19:16 INFO  QuartzScheduler:771 - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2017-10-20 22:19:17 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:19:17 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:19:17 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:19:17 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:19:17 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:19:17 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:19:17 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:19:17 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:19:17 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:19:17 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:19:44 INFO  StdSchedulerFactory:1184 - Using default implementation for ThreadExecutor
+2017-10-20 22:19:44 INFO  SimpleThreadPool:268 - Job execution threads will use class loader of thread: main
+2017-10-20 22:19:44 INFO  SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2017-10-20 22:19:44 INFO  QuartzScheduler:240 - Quartz Scheduler v.2.2.1 created.
+2017-10-20 22:19:44 INFO  RAMJobStore:155 - RAMJobStore initialized.
+2017-10-20 22:19:44 INFO  QuartzScheduler:305 - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2017-10-20 22:19:44 INFO  StdSchedulerFactory:1339 - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2017-10-20 22:19:44 INFO  StdSchedulerFactory:1343 - Quartz scheduler version: 2.2.1
+2017-10-20 22:19:44 INFO  QuartzScheduler:575 - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2017-10-20 22:19:44 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-20 22:19:44 INFO  QuartzScheduler:694 - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2017-10-20 22:19:44 INFO  QuartzScheduler:613 - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2017-10-20 22:19:44 DEBUG SimpleThreadPool:328 - Shutting down threadpool...
+2017-10-20 22:19:44 DEBUG SimpleThreadPool:395 - Shutdown of threadpool complete.
+2017-10-20 22:19:44 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-20 22:19:44 INFO  QuartzScheduler:771 - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2017-10-20 22:19:44 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:19:44 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:19:44 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:19:44 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:19:44 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:19:44 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:19:44 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:19:44 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:19:44 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:19:44 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:21:23 INFO  StdSchedulerFactory:1184 - Using default implementation for ThreadExecutor
+2017-10-20 22:21:23 INFO  SimpleThreadPool:268 - Job execution threads will use class loader of thread: main
+2017-10-20 22:21:23 INFO  SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2017-10-20 22:21:23 INFO  QuartzScheduler:240 - Quartz Scheduler v.2.2.1 created.
+2017-10-20 22:21:23 INFO  RAMJobStore:155 - RAMJobStore initialized.
+2017-10-20 22:21:23 INFO  QuartzScheduler:305 - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2017-10-20 22:21:23 INFO  StdSchedulerFactory:1339 - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2017-10-20 22:21:23 INFO  StdSchedulerFactory:1343 - Quartz scheduler version: 2.2.1
+2017-10-20 22:21:23 INFO  QuartzScheduler:575 - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2017-10-20 22:21:23 INFO  QuartzScheduler:694 - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2017-10-20 22:21:23 INFO  QuartzScheduler:613 - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2017-10-20 22:21:23 DEBUG SimpleThreadPool:328 - Shutting down threadpool...
+2017-10-20 22:21:23 DEBUG SimpleThreadPool:395 - Shutdown of threadpool complete.
+2017-10-20 22:21:23 INFO  QuartzScheduler:771 - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2017-10-20 22:21:23 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:21:23 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:21:23 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:21:23 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:21:23 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:21:23 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:21:23 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:21:23 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:21:23 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:21:23 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:21:39 INFO  StdSchedulerFactory:1184 - Using default implementation for ThreadExecutor
+2017-10-20 22:21:39 INFO  SimpleThreadPool:268 - Job execution threads will use class loader of thread: main
+2017-10-20 22:21:39 INFO  SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2017-10-20 22:21:39 INFO  QuartzScheduler:240 - Quartz Scheduler v.2.2.1 created.
+2017-10-20 22:21:39 INFO  RAMJobStore:155 - RAMJobStore initialized.
+2017-10-20 22:21:39 INFO  QuartzScheduler:305 - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2017-10-20 22:21:39 INFO  StdSchedulerFactory:1339 - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2017-10-20 22:21:39 INFO  StdSchedulerFactory:1343 - Quartz scheduler version: 2.2.1
+2017-10-20 22:21:39 INFO  QuartzScheduler:575 - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2017-10-20 22:21:39 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-20 22:21:48 DEBUG UpdateChecker:54 - Checking for available updated version of Quartz...
+2017-10-20 22:22:07 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-20 22:22:48 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-20 22:23:18 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-20 22:23:27 INFO  QuartzScheduler:694 - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2017-10-20 22:23:27 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-20 22:23:27 INFO  QuartzScheduler:613 - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2017-10-20 22:23:27 DEBUG SimpleThreadPool:328 - Shutting down threadpool...
+2017-10-20 22:23:27 DEBUG SimpleThreadPool:395 - Shutdown of threadpool complete.
+2017-10-20 22:23:27 INFO  QuartzScheduler:771 - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2017-10-20 22:23:28 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:23:28 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:23:28 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:23:28 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:23:28 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:23:28 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:23:28 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:23:28 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:23:28 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:23:28 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:23:52 INFO  StdSchedulerFactory:1184 - Using default implementation for ThreadExecutor
+2017-10-20 22:23:52 INFO  SimpleThreadPool:268 - Job execution threads will use class loader of thread: main
+2017-10-20 22:23:52 INFO  SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2017-10-20 22:23:52 INFO  QuartzScheduler:240 - Quartz Scheduler v.2.2.1 created.
+2017-10-20 22:23:52 INFO  RAMJobStore:155 - RAMJobStore initialized.
+2017-10-20 22:23:52 INFO  QuartzScheduler:305 - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2017-10-20 22:23:52 INFO  StdSchedulerFactory:1339 - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2017-10-20 22:23:52 INFO  StdSchedulerFactory:1343 - Quartz scheduler version: 2.2.1
+2017-10-20 22:23:52 INFO  QuartzScheduler:575 - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2017-10-20 22:23:55 DEBUG UpdateChecker:54 - Checking for available updated version of Quartz...
+2017-10-20 22:23:55 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-20 22:24:21 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-20 22:24:21 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Testy.MyJob
+2017-10-20 22:24:21 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-20 22:24:21 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Testy.MyJob
+2017-10-20 22:24:21 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-20 22:24:24 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-20 22:24:24 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-20 22:24:24 INFO  QuartzScheduler:694 - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2017-10-20 22:24:24 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Testy.MyJob
+2017-10-20 22:24:24 INFO  QuartzScheduler:613 - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2017-10-20 22:24:24 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-20 22:24:24 DEBUG SimpleThreadPool:328 - Shutting down threadpool...
+2017-10-20 22:24:24 DEBUG SimpleThreadPool:395 - Shutdown of threadpool complete.
+2017-10-20 22:24:24 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:24:24 INFO  QuartzScheduler:771 - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2017-10-20 22:24:26 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:24:26 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:24:26 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:24:26 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:24:26 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:24:26 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:24:26 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:24:26 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:24:26 DEBUG SimpleThreadPool:612 - WorkerThread is shut down.
+2017-10-20 22:24:54 INFO  StdSchedulerFactory:1184 - Using default implementation for ThreadExecutor
+2017-10-20 22:24:54 INFO  SimpleThreadPool:268 - Job execution threads will use class loader of thread: main
+2017-10-20 22:24:54 INFO  SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2017-10-20 22:24:54 INFO  QuartzScheduler:240 - Quartz Scheduler v.2.2.1 created.
+2017-10-20 22:24:54 INFO  RAMJobStore:155 - RAMJobStore initialized.
+2017-10-20 22:24:54 INFO  QuartzScheduler:305 - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2017-10-20 22:24:54 INFO  StdSchedulerFactory:1339 - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2017-10-20 22:24:54 INFO  StdSchedulerFactory:1343 - Quartz scheduler version: 2.2.1
+2017-10-20 22:24:54 INFO  QuartzScheduler:575 - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2017-10-20 22:24:54 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-20 22:24:54 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Testy.MyJob
+2017-10-20 22:24:54 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-20 22:24:54 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-20 22:24:55 DEBUG UpdateChecker:54 - Checking for available updated version of Quartz...
+2017-10-20 22:24:55 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Testy.MyJob
+2017-10-20 22:24:55 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-20 22:24:55 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-20 22:24:56 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Testy.MyJob
+2017-10-20 22:24:56 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-20 22:24:56 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-20 22:24:57 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Testy.MyJob
+2017-10-20 22:24:57 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-20 22:24:57 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-20 22:24:58 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Testy.MyJob
+2017-10-20 22:24:58 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-20 22:24:58 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-20 22:24:59 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Testy.MyJob
+2017-10-20 22:24:59 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-20 22:24:59 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-20 22:25:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Testy.MyJob
+2017-10-20 22:25:00 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-20 22:25:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-20 22:25:01 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Testy.MyJob
+2017-10-20 22:25:01 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-20 22:25:01 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-20 22:25:02 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Testy.MyJob
+2017-10-20 22:25:02 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-20 22:25:02 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-20 22:25:03 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Testy.MyJob
+2017-10-20 22:25:03 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-20 22:25:03 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-20 22:25:04 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Testy.MyJob
+2017-10-20 22:25:04 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-20 22:25:04 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-20 22:25:05 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Testy.MyJob
+2017-10-20 22:25:05 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-20 22:25:05 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-20 22:25:06 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Testy.MyJob
+2017-10-20 22:25:06 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-20 22:25:06 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-20 22:25:07 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Testy.MyJob
+2017-10-20 22:25:07 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-20 22:25:07 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-20 22:25:08 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Testy.MyJob
+2017-10-20 22:25:08 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-20 22:25:08 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-20 22:25:09 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Testy.MyJob
+2017-10-20 22:25:09 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-20 22:25:09 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-20 22:25:10 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Testy.MyJob
+2017-10-20 22:25:10 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-20 22:25:10 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-20 22:25:11 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Testy.MyJob
+2017-10-20 22:25:11 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-20 22:25:11 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-20 22:25:12 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Testy.MyJob
+2017-10-20 22:25:12 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-20 22:25:12 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-20 22:25:13 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Testy.MyJob
+2017-10-20 22:25:13 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-20 22:25:13 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-20 22:25:14 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Testy.MyJob
+2017-10-20 22:25:14 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-20 22:25:14 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-20 22:25:15 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Testy.MyJob
+2017-10-20 22:25:15 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-20 22:25:15 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-20 22:25:16 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Testy.MyJob
+2017-10-20 22:25:16 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-20 22:25:16 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-20 22:25:17 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Testy.MyJob
+2017-10-20 22:25:17 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-20 22:25:17 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers

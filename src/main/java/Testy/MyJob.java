@@ -1,10 +1,9 @@
 package Testy;
 
-
 import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;
 
-public class MyJob implements org.quartz.Job{
+public class MyJob implements org.quartz.Job {
 
     public MyJob() {
     }
