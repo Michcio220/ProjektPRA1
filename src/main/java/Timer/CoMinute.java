@@ -1,28 +1,29 @@
 package Timer;
 
-import org.quartz.JobDetail;
+
 import org.quartz.Scheduler;
 import org.quartz.SchedulerException;
-import org.quartz.Trigger;
 import org.quartz.impl.StdSchedulerFactory;
-import static org.quartz.JobBuilder.*;
-import static org.quartz.TriggerBuilder.*;
-import static org.quartz.SimpleScheduleBuilder.*;
+
+import java.util.Scanner;
 
 public class CoMinute {
 
     public static void main(String[] arg) throws SchedulerException {
 
-        try {
+        Scanner odczyt = new Scanner(System.in);
 
-            Scheduler mySchedule = StdSchedulerFactory.getDefaultScheduler();
+        odczyt.nextLine()
 
-            mySchedule.start();
+        Scheduler scheduler = StdSchedulerFactory.getDefaultScheduler();
+        scheduler.start();
+        String wejcie = "";
 
-            JobDetail MyJob
-
-        } catch (SchedulerException se) {
-            se.printStackTrace();
+        while(odczyt.hasNextLine()){
+            String numerzadaniaS = new String(vall)
+          wejcie +=  numerzadaniaS +"\n" + odczyt.nextLine();
         }
+
+
     }
 }

@@ -1,26 +1,23 @@
 package ZapiszDoPliku;
 
+import org.quartz.Job;
+import org.quartz.JobExecutionContext;
+import org.quartz.JobExecutionException;
+
 import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.util.Timer;
-import java.util.TimerTask;
 
-public class Zapisz {
 
-    Timer timer = new Timer();
-    TimerTask timer_task = new TimerTask() {
-        @Override
-        public void run() {
-            File file = new File("C:\\Users\\admin\\Desktop\\odp.txt");
-        }
-    };
+public class Zapisz implements org.quartz.Job {
 
-    public void setTimer(){
-        timer.schedule(timer_task,0,30000);
+    public Zapisz(){
     }
 
-    public Timer getTimer() {
-        return timer;
+
+    public void execute(JobExecutionContext context) throws JobExecutionException{
+        File plikOdpowiedzi = new File("");
+
     }
+
+
+
 }
