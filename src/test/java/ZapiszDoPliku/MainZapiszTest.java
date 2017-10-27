@@ -1,20 +1,19 @@
 package ZapiszDoPliku;
 
+import org.junit.Test;
 import org.quartz.JobDetail;
-
-import org.quartz.*;
+import org.quartz.Scheduler;
+import org.quartz.SchedulerException;
+import org.quartz.SimpleTrigger;
 import org.quartz.impl.StdSchedulerFactory;
 
-import java.sql.Time;
-import java.util.Date;
-
-import static org.quartz.JobBuilder.*;
-import static org.quartz.CronScheduleBuilder.cronSchedule;
+import static org.junit.Assert.*;
+import static org.quartz.JobBuilder.newJob;
 import static org.quartz.SimpleScheduleBuilder.simpleSchedule;
-import static org.quartz.TriggerBuilder.*;
+import static org.quartz.TriggerBuilder.newTrigger;
 
-public class MainZapisz {
-
+public class MainZapiszTest {
+    @Test
     public static void main(String[] args) throws SchedulerException {
 
         try {
@@ -32,13 +31,14 @@ public class MainZapisz {
                     .withSchedule(simpleSchedule()
                             .withIntervalInSeconds(30)
                             .repeatForever())
-                            .build();
+                    .build();
 
             sf.scheduleJob(job, triger);
 
         } catch (SchedulerException se) {
             se.printStackTrace();
         }
+
 
     }
 }
