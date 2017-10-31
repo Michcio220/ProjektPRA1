@@ -1,25 +1,16 @@
-package Testy;
-
-
-
-
+package Cominute;
 
 import org.quartz.Job;
 import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;
 
 
-import javax.xml.crypto.Data;
-import java.sql.Time;
-import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
-import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.concurrent.TimeUnit;
 
+
+//Klasa odpowiedzialna za sprawdzenie czasy dp końca zajęć/przerwy
 public class TimeJob implements Job {
 
     public TimeJob() {
@@ -34,6 +25,7 @@ public class TimeJob implements Job {
         LocalDateTime now = LocalDateTime.now();
         LocalDateTime dlugaPrzerwa = LocalDateTime.of(now.getYear(),now.getMonth(),now.getDayOfMonth(),13,15,0);
 
+        // Tworzy tablice zawierajaca godziny zajeć i przerw
         for(int i =0; i<12; i++){
             if(i == 0) {
 
@@ -41,34 +33,30 @@ public class TimeJob implements Job {
 
             } else if(i % 2 == 0 && i != 6 ){
 
-                array[i] = array[i-1].plusMinutes(15);
+                array[i] = array[i-1].plusMinutes(15); // przerwa
 
             }else if(i % 2 != 0) {
 
-                array[i] = array[i - 1].plusMinutes(90);
+                array[i] = array[i - 1].plusMinutes(90); // zajecia
 
             }else if(i == 6){
-                array[i] = array[i-1].plusMinutes(30);
 
+                array[i] = array[i-1].plusMinutes(30); //długa przerwa
 
             }
         }
-        if(now.isAfter(array[0]) && now.isBefore(array[11])) {
+
         for(int i=0; i<12; i++){
 
                 if (now.isAfter(array[i]) && i % 2 != 0 && now.isBefore(array[i + 1])) {
-                    Long diffrence = now.until(array[i + 1], ChronoUnit.MINUTES);
+                    Long diffrence = now.until(array[i + 1], ChronoUnit.MINUTES) +1; //obliczanie czasu do konca przerwy
                     System.err.println("Do konca przerwy zostalo: " + diffrence.toString() + " min");
-                    break;
+                    break; // przerywa petle
                 } else if (now.isAfter(array[i]) && i % 2 == 0 && now.isBefore(array[i + 1])) {
-                    Long diffrence = now.until(array[i + 1], ChronoUnit.MINUTES);
+                    Long diffrence = now.until(array[i + 1], ChronoUnit.MINUTES) +1; // obliczanie czasu do konca zajec
                     System.err.println("Do konca zajec zostalo: " + diffrence.toString() + " min");
-                    break;
+                    break; // przerywa petle
                 }
             }
-        }else {
-            System.err.println("Zajecia już się skonczyły");
-        }
-
     }
 }
