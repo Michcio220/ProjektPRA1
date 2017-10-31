@@ -1,31 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="96dd1687-09a7-47f4-bd96-47d804111a01" name="Default" comment="2017-10-31">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Copolminuty/SqlAns.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Copolminuty/ZapiszJob.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Copolminuty/coPolMinuty.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Main/Main.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/Timer/CoMinute.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/Timer/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ZapiszDoPliku/MainZapisz.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ZapiszDoPliku/MyJob.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ZapiszDoPliku/SqlAns.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ZapiszDoPliku/Zapisz.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/ZapiszDoPliku/MainZapiszTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Testy/QuartzTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Testy/TimeJob.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Timer/CoMinute.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Timer/Main.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ZapiszDoPliku/MainZapisz.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ZapiszDoPliku/MyJob.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ZapiszDoPliku/SqlAns.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ZapiszDoPliku/Zapisz.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/ZapiszDoPliku/MainZapiszTest.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Testy/QuartzTest.java" afterPath="$PROJECT_DIR$/src/main/java/Cominute/coMinute.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Testy/TimeJob.java" afterPath="$PROJECT_DIR$/src/main/java/Cominute/TimeJob.java" />
+    <list default="true" id="96dd1687-09a7-47f4-bd96-47d804111a01" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Odp.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Odpowiedz/odp.txt" afterPath="$PROJECT_DIR$/Odpowiedz/odp.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log.log" afterPath="$PROJECT_DIR$/log.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Cominute/TimeJob.java" afterPath="$PROJECT_DIR$/src/main/java/Cominute/TimeJob.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -71,28 +52,28 @@
       <file leaf-file-name="TimeJob.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Cominute/TimeJob.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-32">
-              <caret line="35" column="65" lean-forward="false" selection-start-line="35" selection-start-column="65" selection-end-line="35" selection-end-column="65" />
+            <state relative-caret-position="587">
+              <caret line="59" column="17" lean-forward="true" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="coMinute.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="coMinute.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Cominute/coMinute.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
+            <state relative-caret-position="225">
               <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="126">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -155,11 +136,12 @@
         <option value="$PROJECT_DIR$/src/main/java/Testy/TimeJob.java" />
         <option value="$PROJECT_DIR$/src/main/java/ZapiszDoPliku/MainZapisz.java" />
         <option value="$PROJECT_DIR$/src/main/java/ZapiszDoPliku/MyJob.java" />
-        <option value="$PROJECT_DIR$/Odpowiedz/odp.txt" />
         <option value="$PROJECT_DIR$/src/main/java/ZapiszDoPliku/coPolMinuty.java" />
         <option value="$PROJECT_DIR$/src/main/java/Testy/coMinute.java" />
         <option value="$PROJECT_DIR$/src/main/java/Copolminuty/coPolMinuty.java" />
         <option value="$PROJECT_DIR$/src/main/java/Cominute/coMinute.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Cominute/TimeJob.java" />
+        <option value="$PROJECT_DIR$/Odpowiedz/odp.txt" />
       </list>
     </option>
   </component>
@@ -233,54 +215,6 @@
               <item name="ProjektPRA" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProjektPRA1" type="462c0819:PsiDirectoryNode" />
               <item name="Odpowiedz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjektPRA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjektPRA1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjektPRA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjektPRA1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjektPRA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjektPRA1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjektPRA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjektPRA1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Cominute" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjektPRA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjektPRA1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Copolminuty" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjektPRA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjektPRA1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjektPRA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjektPRA1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -532,7 +466,21 @@
       <option name="project" value="LOCAL" />
       <updated>1508444617281</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2017-10-31">
+      <created>1509464116654</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1509464116654</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2017-10-31">
+      <created>1509464726533</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1509464726533</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -546,13 +494,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30593607" sideWeight="0.32708332" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30593607" sideWeight="0.32708332" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3242009" sideWeight="0.57135415" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.084375" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32305935" sideWeight="0.42864582" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32305935" sideWeight="0.42864582" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -878,13 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Odp.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.base/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12831">
@@ -941,14 +882,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Cominute/TimeJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32">
-          <caret line="35" column="65" lean-forward="false" selection-start-line="35" selection-start-column="65" selection-end-line="35" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Timer/CoMinuteTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-609">
@@ -957,17 +890,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Odpowiedz/odp.txt">
+    <entry file="file://$PROJECT_DIR$/Odp.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -985,9 +908,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Cominute/coMinute.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
+        <state relative-caret-position="225">
           <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Odpowiedz/odp.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cominute/TimeJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="587">
+          <caret line="59" column="17" lean-forward="true" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

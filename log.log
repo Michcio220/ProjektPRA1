@@ -27934,3 +27934,463 @@ Caused by: java.lang.NullPointerException
 2017-10-31 16:25:42 INFO  QuartzScheduler:575 - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
 2017-10-31 16:25:42 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
 2017-10-31 16:25:43 DEBUG UpdateChecker:54 - Checking for available updated version of Quartz...
+2017-10-31 17:06:41 INFO  StdSchedulerFactory:1184 - Using default implementation for ThreadExecutor
+2017-10-31 17:06:41 INFO  SimpleThreadPool:268 - Job execution threads will use class loader of thread: main
+2017-10-31 17:06:41 INFO  SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2017-10-31 17:06:41 INFO  QuartzScheduler:240 - Quartz Scheduler v.2.2.1 created.
+2017-10-31 17:06:41 INFO  RAMJobStore:155 - RAMJobStore initialized.
+2017-10-31 17:06:41 INFO  QuartzScheduler:305 - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2017-10-31 17:06:41 INFO  StdSchedulerFactory:1339 - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2017-10-31 17:06:41 INFO  StdSchedulerFactory:1343 - Quartz scheduler version: 2.2.1
+2017-10-31 17:06:41 INFO  QuartzScheduler:575 - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2017-10-31 17:06:41 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-31 17:06:41 INFO  QuartzScheduler:575 - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2017-10-31 17:06:41 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:06:42 DEBUG UpdateChecker:54 - Checking for available updated version of Quartz...
+2017-10-31 17:07:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:07:00 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:07:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:07:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Cominute.TimeJob
+2017-10-31 17:07:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-31 17:07:00 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-31 17:07:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:07:30 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:07:30 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:07:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:07:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:08:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Cominute.TimeJob
+2017-10-31 17:08:00 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-31 17:08:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:08:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:08:00 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:08:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-31 17:08:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:08:30 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:08:30 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:08:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:08:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:09:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Cominute.TimeJob
+2017-10-31 17:09:00 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-31 17:09:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:09:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:09:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-31 17:09:00 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:09:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:09:30 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:09:30 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:09:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:09:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:10:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Cominute.TimeJob
+2017-10-31 17:10:00 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-31 17:10:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:10:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:10:00 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:10:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-31 17:10:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:10:30 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:10:30 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:10:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:10:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:11:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Cominute.TimeJob
+2017-10-31 17:11:00 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-31 17:11:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:11:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:11:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-31 17:11:00 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:11:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:11:30 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:11:30 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:11:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:11:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:12:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Cominute.TimeJob
+2017-10-31 17:12:00 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-31 17:12:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:12:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:12:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-31 17:12:00 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:12:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:12:30 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:12:30 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:12:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:12:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:13:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Cominute.TimeJob
+2017-10-31 17:13:00 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-31 17:13:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:13:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:13:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-31 17:13:00 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:13:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:13:30 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:13:30 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:13:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:13:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:14:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Cominute.TimeJob
+2017-10-31 17:14:00 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-31 17:14:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:14:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:14:00 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:14:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-31 17:14:13 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:14:30 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:14:30 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:14:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:14:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:15:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Cominute.TimeJob
+2017-10-31 17:15:00 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-31 17:15:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:15:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:15:00 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:15:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-31 17:15:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:15:30 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:15:30 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:15:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:15:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:16:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Cominute.TimeJob
+2017-10-31 17:16:00 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-31 17:16:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:16:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:16:00 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:16:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-31 17:16:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:16:30 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:16:30 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:16:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:16:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:17:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Cominute.TimeJob
+2017-10-31 17:17:00 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-31 17:17:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:17:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:17:00 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:17:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-31 17:17:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:17:30 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:17:30 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:17:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:17:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:18:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Cominute.TimeJob
+2017-10-31 17:18:00 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-31 17:18:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:18:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:18:00 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:18:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-31 17:18:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:18:30 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:18:30 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:18:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:18:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:19:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Cominute.TimeJob
+2017-10-31 17:19:00 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-31 17:19:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:19:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:19:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-31 17:19:00 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:19:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:19:30 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:19:30 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:19:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:19:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:20:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Cominute.TimeJob
+2017-10-31 17:20:00 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-31 17:20:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:20:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:20:00 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:20:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-31 17:20:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:20:30 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:20:30 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:20:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:20:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:21:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Cominute.TimeJob
+2017-10-31 17:21:00 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-31 17:21:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:21:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:21:00 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:21:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-31 17:21:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:21:30 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:21:30 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:21:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:21:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:22:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Cominute.TimeJob
+2017-10-31 17:22:00 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-31 17:22:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:22:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:22:00 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:22:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-31 17:22:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:22:30 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:22:30 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:22:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:22:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:23:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Cominute.TimeJob
+2017-10-31 17:23:00 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-31 17:23:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:23:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:23:00 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:23:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-31 17:23:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:23:30 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:23:30 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:23:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:23:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:24:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Cominute.TimeJob
+2017-10-31 17:24:00 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-31 17:24:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:24:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:24:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-31 17:24:00 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:24:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:24:30 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:24:30 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:24:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:24:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:25:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Cominute.TimeJob
+2017-10-31 17:25:00 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-31 17:25:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:25:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:25:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-31 17:25:00 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:25:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:25:30 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:25:30 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:25:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:25:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:26:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Cominute.TimeJob
+2017-10-31 17:26:00 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-31 17:26:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:26:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:26:00 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:26:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-31 17:26:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:26:30 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:26:30 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:26:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:26:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:27:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Cominute.TimeJob
+2017-10-31 17:27:00 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-31 17:27:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:27:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:27:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-31 17:27:00 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:27:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:27:30 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:27:30 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:27:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:27:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:28:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Cominute.TimeJob
+2017-10-31 17:28:00 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-31 17:28:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:28:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:28:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-31 17:28:00 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:28:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:28:30 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:28:30 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:28:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:28:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:29:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Cominute.TimeJob
+2017-10-31 17:29:00 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-31 17:29:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:29:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:29:00 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:29:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-31 17:29:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:29:30 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:29:30 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:29:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:29:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:30:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Cominute.TimeJob
+2017-10-31 17:30:00 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-31 17:30:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:30:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:30:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-31 17:30:00 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:30:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:30:30 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:30:30 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:30:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:30:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:31:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Cominute.TimeJob
+2017-10-31 17:31:00 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-31 17:31:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:31:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:31:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-31 17:31:00 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:31:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:31:30 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:31:30 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:31:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:31:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:32:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Cominute.TimeJob
+2017-10-31 17:32:00 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-31 17:32:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:32:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:32:00 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:32:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-31 17:32:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:32:30 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:32:30 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:32:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:32:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:33:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Cominute.TimeJob
+2017-10-31 17:33:00 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-31 17:33:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:33:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:33:00 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:33:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-31 17:33:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:33:30 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:33:30 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:33:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:33:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:34:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Cominute.TimeJob
+2017-10-31 17:34:00 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-31 17:34:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:34:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:34:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-31 17:34:00 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:34:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:34:30 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:34:30 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:34:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:34:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:35:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Cominute.TimeJob
+2017-10-31 17:35:00 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-31 17:35:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:35:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:35:00 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:35:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-31 17:35:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:35:30 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:35:30 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:35:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:35:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:36:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Cominute.TimeJob
+2017-10-31 17:36:00 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-31 17:36:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:36:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:36:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-31 17:36:00 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:36:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:36:30 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:36:30 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:36:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:36:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:37:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Cominute.TimeJob
+2017-10-31 17:37:00 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-31 17:37:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:37:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:37:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-31 17:37:00 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:37:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:37:30 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:37:30 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:37:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:37:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:38:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Cominute.TimeJob
+2017-10-31 17:38:00 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-31 17:38:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:38:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:38:00 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:38:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-31 17:38:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:38:30 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:38:30 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:38:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:38:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:39:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Cominute.TimeJob
+2017-10-31 17:39:00 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-31 17:39:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:39:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:39:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-31 17:39:00 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:39:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:39:30 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:39:30 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:39:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:39:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:40:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Cominute.TimeJob
+2017-10-31 17:40:00 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-31 17:40:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:40:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:40:00 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:40:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-31 17:40:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:40:30 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:40:30 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:40:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:40:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:41:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Cominute.TimeJob
+2017-10-31 17:41:00 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-31 17:41:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:41:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:41:00 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:41:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-31 17:41:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:41:30 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:41:30 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:41:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:41:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:42:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Cominute.TimeJob
+2017-10-31 17:42:00 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-31 17:42:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:42:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:42:00 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:42:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-31 17:42:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:42:30 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:42:30 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:42:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:42:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:43:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Cominute.TimeJob
+2017-10-31 17:43:00 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-31 17:43:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:43:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:43:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-31 17:43:00 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:43:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:43:30 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:43:30 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:43:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:43:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:44:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Cominute.TimeJob
+2017-10-31 17:44:00 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-31 17:44:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:44:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:44:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-31 17:44:00 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:44:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:44:30 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:44:30 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:44:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:44:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:45:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Cominute.TimeJob
+2017-10-31 17:45:00 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-31 17:45:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:45:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:45:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-31 17:45:00 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:45:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:45:30 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:45:30 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:45:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:45:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:46:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group1.job1', class=Cominute.TimeJob
+2017-10-31 17:46:00 DEBUG JobRunShell:201 - Calling execute on job group1.job1
+2017-10-31 17:46:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:46:00 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:46:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 0 triggers
+2017-10-31 17:46:00 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:46:00 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:46:30 DEBUG PropertySettingJobFactory:51 - Producing instance of Job 'group2.job2', class=Copolminuty.ZapiszJob
+2017-10-31 17:46:30 DEBUG JobRunShell:201 - Calling execute on job group2.job2
+2017-10-31 17:46:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
+2017-10-31 17:46:30 DEBUG QuartzSchedulerThread:276 - batch acquisition of 1 triggers
