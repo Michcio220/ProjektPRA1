@@ -1,6 +1,7 @@
 package Copolminuty;
 
 
+//Nie wiedzialem niestety jak zrobic testy do metod jakich wykorzystalem
 import org.quartz.*;
 import org.quartz.impl.StdSchedulerFactory;
 
@@ -69,6 +70,15 @@ public class coPolMinuty {
             scanner.close();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
+        }
+
+    }
+
+    public boolean matches(String polecenie,String wzorzec){
+        if(polecenie.matches(wzorzec)){
+            return true;
+        }else{
+            return false;
         }
 
     }
